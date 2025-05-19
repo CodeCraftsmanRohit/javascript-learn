@@ -31,3 +31,30 @@ console.log(Object.values(obj3))
 console.log(Object.entries(obj3))
 
 console.log(obj3.hasOwnProperty('3'))
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+//deconstruction!!
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
